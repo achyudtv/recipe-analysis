@@ -19,7 +19,7 @@ Furthermore, we have to split the column 'nutrition' into 7 different columns co
 We then removed the columns 'id', 'contributor_id', 'nutrition', 'steps', 'tags', 'ingredients', 'submitted', 'description', 'user_id', 'recipe_id', 'date', 'rating', and 'review' as these columns aren't neccessary for our analysis. We also drop any 'nan' values at this point as well.
 
 We then get dataframe cleaned for our analysis. Here is a look at the head below:
-|  | name | minutes | n_steps | n_ingredients | average_rating | calories | total fat | sugar | sodium | protein | saturated fat | carbohydrates | 
+| index | name | minutes | n_steps | n_ingredients | average_rating | calories | total fat | sugar | sodium | protein | saturated fat | carbohydrates | 
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
