@@ -38,7 +38,7 @@ We then got a dataframe cleaned for our analysis. Here is a look at its head bel
 ---
 
 ### Imputation
-I didn't impute any values in our dataframe. This is due to the fact that different recipes have different values for its nutrition profile and its time needed, which we really can't have a good idea of what to replace a specific recipe's 'nan' values. So, insteadm, we just removed them from our dataframe.
+I didn't impute any values in our dataframe. This is due to the fact that different recipes have different values for its nutrition profile and its time needed, which is why we can't really get a good idea of what to replace for a specific recipe's 'nan' value. So, instead, we just removed them from our dataframe.
 
 ---
 
