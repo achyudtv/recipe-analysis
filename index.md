@@ -8,6 +8,11 @@ This dataset is based off recipes and their ratings/reviews posted on food.com s
 ---
 
 ### Data Overview
+## Data Cleaning
+## Univariate Analysis
+## Bivariate Analysis
+## Interesting Aggregates
+## Imputation
 
 ---
 
