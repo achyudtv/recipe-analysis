@@ -20,13 +20,13 @@ We then removed the columns 'id', 'contributor_id', 'nutrition', 'steps', 'tags'
 
 We then get dataframe cleaned for our analysis. Here is a look at the head below:
 
-| index | name  | minutes | n_steps | n_ingredients | average_rating | calories | total fat | sugar | sodium | protein | saturated fat | carbohydrates |
+| | name  | minutes | n_steps | n_ingredients | average_rating | calories | total fat | sugar | sodium | protein | saturated fat | carbohydrates |
 |-------|-------|---------|---------|----------------|----------------|----------|------------|--------|--------|---------|----------------|----------------|
-| 1     | Pasta | 30      | 5       | 8              | 4.5            | 400      | 10         | 5      | 300    | 12      | 3              | 50             |
-| 2     | Salad | 15      | 3       | 5              | 3.8            | 150      | 5          | 3      | 200    | 5       | 1              | 20             |
-| 3     | Soup  | 45      | 7       | 9              | 4.2            | 250      | 8          | 4      | 400    | 10      | 2              | 35             |
-| 4     | Cake  | 60      | 10      | 12             | 4.9            | 500      | 20         | 25     | 350    | 6       | 8              | 60             |
-| 5     | Curry | 35      | 6       | 10             | 4.1            | 350      | 15         | 10     | 330    | 14      | 5              | 45             |
+| 0     | 1 brownies in the world best ever | 40      | 10       | 8              | 4.5            | 400      | 10         | 5      | 300    | 12      | 3              | 6.0             |
+| 1     | 1 in canada chocolate chip cookies | 45      | 12      | 5              | 3.8            | 150      | 5          | 3      | 200    | 5       | 1              | 26.0             |
+| 2     | 412 broccoli casserole  | 40      | 6       | 9              | 4.2            | 250      | 8          | 4      | 400    | 10      | 2              | 3.0             |
+| 6     | millionaire pound cake  | 120      | 7      | 12             | 4.9            | 500      | 20         | 25     | 350    | 6       | 8              | 39.0            |
+| 7     | 2000 meatloaf | 35      | 90       | 17             | 4.1            | 350      | 15         | 10     | 330    | 14      | 5              | 2.0             |
 
 
 ### Univariate Analysis
