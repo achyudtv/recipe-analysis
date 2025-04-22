@@ -11,7 +11,6 @@ This dataset is based off recipes and their ratings/reviews posted on food.com s
 ## Data Overview
 
 ### Data Cleaning
----
 Firstly, since we are originally two datasets, we did a left merge on between the datasets recipes and ratings. In our merged dataset, we replaced all ratings that contained a 0 with 'np.nan' as the number 0 may indicate a person gave a review without giving an official rating, messing up a recipe's average rating as a result. We than created a new column called 'average_rating' to give a recipes average rating, which is helpful to our analysis as that is what we are investigating. We then dropped duplicate recipes with the same id, as we got our average rating per recipe, which is enough. 
 
 Furthermore, we have to split the column 'nutrition' into 7 different columns containing the values for a recipe's calories, total fat, sugar, sodium, protein, saturated fat, and carbohydrates. This was easy as we just pieced apart an array and created a new column for each nutrition value. 
@@ -39,7 +38,7 @@ We then got a dataframe cleaned for our analysis. Here is a look at its head bel
 ---
 
 ### Imputation
----
+I didn't impute any values in our dataframe. This is due to the fact that different recipes have different values for its nutrition profile and its time needed, which we really can't have a good idea of what to replace a specific recipe's 'nan' values. So, insteadm, we just removed them from our dataframe.
 
 ---
 
