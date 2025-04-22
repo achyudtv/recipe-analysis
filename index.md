@@ -43,6 +43,11 @@ I didn't impute any values in our dataframe. This is due to the fact that differ
 ---
 
 # Problem Identification
+Our prediction problem is trying to predict the average rating of a recipe based. This would be a regression problem as the average rating of a recipe is a continous quantitve variables. Even though it is bounded between 1 and 5, it can be any rational number inside that range, meaning there are an infinite amount of average ratings possible for a recipe. Thus our response variable here is the average rating, which will help us identify how well recieved a recipe is from people trying it and rating it. 
+
+Our predictors used to predict the average rating of a recipe is a recipe's number of ingredient, number of steps, the time it takes in minutes, and its nutrition statistics. These predictors will be known before a recipe is posted online, so it makes sense to use them to determine what a recipe's average rating would be when it gets posted online. 
+
+We will use MSE (mean squared error) to evaluate our model as it works well in pointing large errors in our model. Additionally, we will also use R^2 as it helps us determine how strong a linear relationship is between our response variable and its predictors. MSE and R^2 are the best metrics generally for linear models, which is why we chose them over other metrics. 
 
 ---
 
