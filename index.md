@@ -19,10 +19,14 @@ Furthermore, we have to split the column 'nutrition' into 7 different columns co
 We then removed the columns 'id', 'contributor_id', 'nutrition', 'steps', 'tags', 'ingredients', 'submitted', 'description', 'user_id', 'recipe_id', 'date', 'rating', and 'review' as these columns aren't neccessary for our analysis. We also drop any 'nan' values at this point as well.
 
 We then get dataframe cleaned for our analysis. Here is a look at the head below:
-| index | name | minutes | n_steps | n_ingredients | average_rating | calories | total fat | sugar | sodium | protein | saturated fat | carbohydrates | 
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+
+| index | name  | minutes | n_steps | n_ingredients | average_rating | calories | total fat | sugar | sodium | protein | saturated fat | carbohydrates |
+|-------|-------|---------|---------|----------------|----------------|----------|------------|--------|--------|---------|----------------|----------------|
+| 1     | Pasta | 30      | 5       | 8              | 4.5            | 400      | 10         | 5      | 300    | 12      | 3              | 50             |
+| 2     | Salad | 15      | 3       | 5              | 3.8            | 150      | 5          | 3      | 200    | 5       | 1              | 20             |
+| 3     | Soup  | 45      | 7       | 9              | 4.2            | 250      | 8          | 4      | 400    | 10      | 2              | 35             |
+| 4     | Cake  | 60      | 10      | 12             | 4.9            | 500      | 20         | 25     | 350    | 6       | 8              | 60             |
+| 5     | Curry | 35      | 6       | 10             | 4.1            | 350      | 15         | 10     | 330    | 14      | 5              | 45             |
 
 
 ### Univariate Analysis
