@@ -22,11 +22,11 @@ We then get dataframe cleaned for our analysis. Here is a look at the head below
 
 | | name  | minutes | n_steps | n_ingredients | average_rating | calories | total fat | sugar | sodium | protein | saturated fat | carbohydrates |
 |-------|-------|---------|---------|----------------|----------------|----------|------------|--------|--------|---------|----------------|----------------|
-| 0     | 1 brownies in the world best ever | 40      | 10       | 8              | 4.5            | 400      | 10         | 5      | 300    | 12      | 3              | 6.0             |
-| 1     | 1 in canada chocolate chip cookies | 45      | 12      | 5              | 3.8            | 150      | 5          | 3      | 200    | 5       | 1              | 26.0             |
-| 2     | 412 broccoli casserole  | 40      | 6       | 9              | 4.2            | 250      | 8          | 4      | 400    | 10      | 2              | 3.0             |
-| 6     | millionaire pound cake  | 120      | 7      | 12             | 4.9            | 500      | 20         | 25     | 350    | 6       | 8              | 39.0            |
-| 7     | 2000 meatloaf | 35      | 90       | 17             | 4.1            | 350      | 15         | 10     | 330    | 14      | 5              | 2.0             |
+| 0     | 1 brownies in the world best ever | 40 | 10 | 8 | 4.0 | 138.4 | 10.0| 50.0 | 3.0 | 3.0 | 19.0 | 6.0 |
+| 1     | 1 in canada chocolate chip cookies | 45| 12 | 5 | 5.0 | 595.1 | 46.0 | 211.0 | 22.0 | 13.0 | 51.0  | 26.0 |
+| 2     | 412 broccoli casserole  | 40 | 6 | 9  | 5.0  | 194.8  | 20.0| 6.0 | 32.0  | 22.0 | 36.0 | 3.0 |
+| 6     | millionaire pound cake  | 120 | 7 | 12 | 5.0 | 878.3 | 63.0 | 13.0 | 326.0 | 20.0 | 123.0 | 39.0 |
+| 7     | 2000 meatloaf | 35 | 90 | 17 | 5.0 | 267.0 | 12.0 | 30.0 | 12.0 | 29.0 | 48.0 | 2.0 |
 
 
 ### Univariate Analysis
