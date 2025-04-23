@@ -68,6 +68,7 @@ We will use MSE (mean squared error) to evaluate our model as it works well in p
 # Baseline Model
 
 ---
+Our baseline model is a linear regression model predicting a recipe's average rating based on a recipe's amount of calories, number of steps and numer of ingredients. All three of our predictors are quantitive variables, meaning there are no ordinal or nominal variables in our model as a result. This means we don't need do any encodings to any of our variables. However, for our quantitive variables in our model, we use a StandardScalar in our ColumnTransformer to standardize them in our model. We included the ColumnTransformer in our sole pipeline of our model. All this resulted in a MSE of around 0.4045. This is not much good as our model is too basic and may not account for nonlinear relationships that may exist. We also used way too few predictors as we have shown more variables that seemed to have sometype of relationship with a recipe's average rating, even if it may be small.
 
 # Final Model
 
