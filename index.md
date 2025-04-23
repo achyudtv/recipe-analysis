@@ -36,7 +36,7 @@ Below is a histogram giving a distribution of our average ratings. This is impor
 
 ### Bivariate Analysis
 ---
-Below is a scatterplot between the a recipe's calories and its number of steps. This is important as we need to check for relationships between the predictors to check for factors like collinearity. In this case, the recipes with fewer steps seem to have a wider range of calories while recipes that take more steps seem to have not so high calories. The scatterplot doesn't appear to show any clear linear relationship between the two variables. 
+Below is a scatterplot between the a recipe's calories (capped at 3000 calories to prevent outliers) and its number of steps. This is important as we need to check for relationships between the predictors to check for factors like collinearity. In this case, the recipes with fewer steps seem to have a wider range of calories while recipes that take more steps seem to have not so high calories. The scatterplot doesn't appear to show any clear linear relationship between the two variables. 
 
 ![alt text](Scatter.png)
 
