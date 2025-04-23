@@ -30,12 +30,15 @@ We then got a dataframe cleaned for our analysis. Here is a look at its head bel
 
 ### Univariate Analysis
 ---
-Below is a histogram giving a distribution of our average ratings. This is important as this is what we trying to estimate based on other predictors and it's good to know what ratings are more common and what ratings are rare. IN this case, an average rating of 5 is by far the most common and the distribution is heavily skew left. 
+Below is a histogram giving a distribution of our average ratings. This is important as this is what we trying to estimate based on other predictors and it's good to know what ratings are more common and what ratings are rare. In this case, an average rating of 5 is by far the most common and the distribution is heavily skewed left, making it probably harder to predicate a rating as a result.
 
 ![alt text](Ratings_Distribution.png)
 
 ### Bivariate Analysis
 ---
+Below is a scatterplot between the a recipe's calories and its number of steps. This is important as we need to check for relationships between the predictors to check for factors like collinearity. In this case, the recipes with fewer steps seem to have a wider range of calories while recipes that take more steps seem to have not so high calories. The scatterplot doesn't appear to show any clear linear relationship between the two variables. 
+
+
 
 ### Interesting Aggregates
 ---
