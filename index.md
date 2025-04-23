@@ -68,10 +68,18 @@ We will use MSE (mean squared error) to evaluate our model as it works well in p
 # Baseline Model
 
 ---
-Our baseline model is a linear regression model predicting a recipe's average rating based on a recipe's amount of calories, number of steps and numer of ingredients. All three of our predictors are quantitive variables, meaning there are no ordinal or nominal variables in our model as a result. This means we don't need do any encodings to any of our variables. However, for our quantitive variables in our model, we use a StandardScalar in our ColumnTransformer to standardize them in our model. We included the ColumnTransformer in our sole pipeline of our model. All this resulted in a MSE of around 0.4045. This is not much good as our model is too basic and may not account for nonlinear relationships that may exist. We also used way too few predictors as we have shown more variables that seemed to have sometype of relationship with a recipe's average rating, even if it may be small.
+Our baseline model is a linear regression model predicting a recipe's average rating based on a recipe's amount of calories, number of steps and numer of ingredients. All three of our predictors are quantitive variables, meaning there are no ordinal or nominal variables in our model as a result. This means we don't need do any encodings to any of our variables. However, for our quantitive variables in our model, we use a StandardScalar in our ColumnTransformer to standardize them in our model. We included the ColumnTransformer in our sole pipeline of our model. 
+
+All this resulted in our baseline model MSE being around **0.4045**. This is not much good as our model is too basic and may not account for nonlinear relationships that may exist. We also used way too few predictors as we have shown more variables that seemed to have sometype of relationship with a recipe's average rating, even if it may be small.
 
 # Final Model
 
 ---
+
+For our final model, we created two new features that should help our model be more accurate. Firstly, we created 'calories_per_step' which measures the average amount of calories in a meal per step. When looking at a recipe, having to look at more calories while preparing a recipe might impact one's perception of a recipe, as we saw earlier higher rated recipes seemed to be slightly healthier. Secondly, we created 'minutes_per_step' which is the average amount of minutes per step. This could help us determine a recipe's average rating as longer steps in a recipe might cause some people to get frustrated, making them more likely to give a lower rating for a recipe. We also added all remaining variables in a dataset to help predict average recipe's average rating as 
+
+In our final model, we used the RandomForestRegressor method instead of the LinearRegression method as it would account for 
+
+
 
 ### GitHub & Sources
