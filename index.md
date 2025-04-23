@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## 5 Star Analysis of Recipe's Ratings
+## 5 Star Analysis of Recipe Ratings
 
 # Introduction
 This dataset is based off recipes and their ratings/reviews posted on food.com since 2008. There are two datasets, recipes and ratings, which we are combining to create one big dataset which contains information for 81,173 recipes. This vast dataset gives us a great way to predict a recipe's ratings (which is the average rating column we created) based on numerous columns in our combined dataset, such as 'minutes' (amount of time to prepare a recipe), 'nutrition' (nutrition information of a recipe in the form of an array including its number of calories, total fat in PDV, sugar in PDV, sodium in PDV, protein in PDV, saturated fat in PDV, and carbohydrates in PDV), 'n_steps' (number of steps of a recipe) and 'n_ingredients' (the number of an ingredients needed for a recipe). This will help us understand which qualities are more or less influential in getting good rated recipes, meaning if someone wants good reviews to the recipe online, they know what factors would most influence their recipe's ratings. 
