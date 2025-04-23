@@ -42,7 +42,7 @@ Below is a scatterplot between the a recipe's calories (capped at 3000 calories 
 
 ### Interesting Aggregates
 ---
-Below is our grouped aggregate table of a recipe's average rating and several of its predictors (calories, number of ingredients, protein, and sugar). Here we can see some relationships that may be helpful for our model like recipes with lower ratings having more calories and sugar.
+Below is our grouped aggregate table of a recipe's average rating and several of its predictors (calories, number of ingredients, protein, and sugar). Here we can see some relationships like recipes with lower ratings having more calories and sugar. These relationships can help us understand our model better when we eventually construct it. 
 
 | rating_manual_bin | calories | n_ingredients | protein | sugar |
 |-------------------|----------|----------------|---------|--------|
