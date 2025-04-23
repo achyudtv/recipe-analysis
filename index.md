@@ -42,6 +42,14 @@ Below is a scatterplot between the a recipe's calories (capped at 3000 calories 
 
 ### Interesting Aggregates
 ---
+Below is our grouped aggregate table of a recipe's average rating and several of its predictors (calories, number of ingredients, protein, and sugar). Here we can see some relationships that may be helpful for our model like recipes with lower ratings having more calories and sugar.
+
+| rating_manual_bin | calories | n_ingredients | protein | sugar |
+|-------------------|----------|----------------|---------|--------|
+| 1.0–2.0           | 454.35   | 9.14           | 30.63   | 76.40  |
+| 2.0–3.0           | 436.94   | 9.12           | 33.45   | 81.52  |
+| 3.0–4.0           | 426.95   | 9.35           | 35.28   | 62.62  |
+| 4.0–5.0           | 426.31   | 9.18           | 32.66   | 68.18  |
 
 ### Imputation
 I didn't impute any values in our dataframe. This is due to the fact that different recipes have different values for its nutrition profile and its time needed, which is why we can't really get a good idea of what to replace for a specific recipe's 'nan' value. So, instead, we just removed them from our dataframe.
